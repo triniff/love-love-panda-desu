@@ -6,3 +6,71 @@ font-family: 'Raleway', sans-serif;
 */
 
 /* Escribe tu código acá debajo */
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	margin: 0;
+	width: 100%;
+	background-color: #F78E69;
+
+}
+#titular {
+	text-align: right;
+	background-color: #F78E69;
+	box-sizing: border-box;
+	padding: 50px;
+}
+#titular h1 {
+	font-size: 3em;
+	margin: 0;
+}
+
+#titular h4 {
+	font-size: 1em;
+	margin-top: 20px;
+}
+
+.imagen{
+	height: 800px;
+	width: 100%;
+	background-color: #F78E69;
+	box-sizing: border-box;
+}
+
+.uno {
+	height: 500px;
+	background-image: url(../img/uno.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	filter: grayscale(100%);
+}
+.about {
+	margin: 40px 0px;
+}
+.cajita {
+	margin: 0 auto;
+	width: 40%;
+	text-align: center;
+	background-color: #F78E69;
+	padding: 20px;
+}
+.about{
+	background-color: #ABE188;
+	padding: 70px;
+	box-sizing: border-box;
+}
+.dos {
+	background-image: url(../img/dos.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	filter: grayscale(100%);
+}
+.tres {
+	background-image: url(../img/tres.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	filter: grayscale(100%);
+}
