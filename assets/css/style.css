@@ -14,6 +14,7 @@ body {
 	background-color: #F78E69;
 
 }
+/*HEADER*/
 #titular {
 	text-align: right;
 	background-color: #F78E69;
@@ -29,14 +30,14 @@ body {
 	font-size: 1em;
 	margin-top: 20px;
 }
-
+/*ESTILO GENERAL IMAGENES PARA CADA UNA*/
 .imagen{
 	height: 800px;
 	width: 100%;
 	background-color: #F78E69;
 	box-sizing: border-box;
 }
-
+/*PARA PONER LOS PANDAS DE FONDO CON DIFERENTES IMAGENES*/
 .uno {
 	height: 500px;
 	background-image: url(../img/uno.jpg);
@@ -44,21 +45,6 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	filter: grayscale(100%);
-}
-.about {
-	margin: 40px 0px;
-}
-.cajita {
-	margin: 0 auto;
-	width: 40%;
-	text-align: center;
-	background-color: #F78E69;
-	padding: 20px;
-}
-.about{
-	background-color: #ABE188;
-	padding: 70px;
-	box-sizing: border-box;
 }
 .dos {
 	background-image: url(../img/dos.jpg);
@@ -73,4 +59,45 @@ body {
 	background-repeat: no-repeat;
 	background-position: top;
 	filter: grayscale(100%);
+}
+/*SECCION ABOUT*/
+.about {
+	margin: 0 auto;
+	width: 40%;
+	text-align: center;
+	background-color: #F78E69;
+	padding: 20px;
+}
+/*CAJITA STANDAR PARA ABOUT Y GALERIA*/
+.cajita{
+	margin: 40px 0px;
+	background-color: #ABE188;
+	padding: 70px;
+	box-sizing: border-box;
+	text-align: center;
+}
+/*GALERIA*/
+.cajita h2{
+	text-align: center;
+	font-size: 2em;
+	margin-top: 0;
+}
+#galeria img{
+	margin: 0 auto;
+	display: inline-block;
+	margin: 20px;
+	box-sizing: border-box;
+	border: 10px solid white;
+}
+
+/*FOOTER*/
+
+footer p {
+	color: white;
+	text-align: right;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 5px;
+	margin-right: 20px;
+	box-sizing: border-box;
 }
